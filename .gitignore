@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+*.pt
+*.safetensors
+.env
+mlruns/
+
+CLAUDE.md

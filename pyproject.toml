@@ -1,0 +1,19 @@
+[project]
+name = "ml-lab"
+version = "0.1.0"
+description = "26-week AI/ML Engineer learning lab: Python, ML, PyTorch, LLMs, MLOps"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "jupyterlab",
+    "ipykernel",
+]
+# Added later, when the plan reaches them:
+#   Week 7:  uv add xgboost
+#   Week 9:  uv add torch
+#   Week 14: uv add transformers datasets
+#   Week 18: uv add fastapi uvicorn anthropic
